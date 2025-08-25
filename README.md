@@ -29,5 +29,5 @@ This library is licensed under the MIT-0 License. See the LICENSE file.
 
 ```mermaid
 graph TD
-  UI[Frontend UI]->API[Amplify API]
-  API->DB[(DataStore/DB)]
+  UI[Frontend UI]-->API[Amplify API]
+  API-->DB[(DataStore/DB)]
