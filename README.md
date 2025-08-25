@@ -24,3 +24,10 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
+
+## Mermaid test
+
+```mermaid
+graph TD
+  UI[Frontend UI]->API[Amplify API]
+  API->DB[(DataStore/DB)]
